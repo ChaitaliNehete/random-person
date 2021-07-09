@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.icon {
+  background: transparent;
+  border: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: grey;
+  transition: all 0.3s linear;
+}
+.icon:hover {
+  color: skyblue;
+}
+.active {
+  color: skyblue;
+}
